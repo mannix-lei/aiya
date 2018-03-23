@@ -1,0 +1,161 @@
+#img{
+  color: black;
+  font-size: 14px;
+  padding-top: 0px;
+}
+* A {position: relative}
+A {font-size: 14px; color: #000;cursor: pointer}
+A:link {color: #333; text-decoration: none;outline-style: none}
+A:visited {color: #333; text-decoration: none;}
+A:hover {color: #333; text-decoration:underline;}
+A:active {color: #333; text-decoration: none;outline-style: none}
+
+
+A IMG {
+  border-bottom-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-left-style: none
+}
+#featureContainer {
+  border-bottom: #999 0px dotted;
+  border-left: #999 0px dotted;
+  margin: 0px auto;
+  width: 923px;
+  font-size: 80%;
+  border-top: #999 0px dotted;
+  border-right: #999 0px dotted
+}
+#wrap {
+  overflow: hidden
+}
+#load {
+  border-bottom: #999 0px dotted;
+  border-left: #999 0px dotted;
+  text-indent: -9999px;
+  margin: 0px auto;
+  width: 923px;
+  display: none;
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  height: 100px;
+  border-top: #999 0px dotted;
+  border-right: #999 0px dotted
+}
+#feature {
+  border-bottom: #999 0px dotted;
+  position: relative;
+  border-left: #999 0px dotted;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-top: #999 0px dotted;
+  border-right: #999 0px dotted
+}
+#feature .button {
+  border-bottom: #999 0px dotted;
+  position: absolute;
+  border-left: #999 0px dotted;
+  width: 840px;
+  border-top: #999 0px dotted;
+  top: 72px;
+  border-right: #999 0px dotted;
+  left: 0px
+}
+#feature .prev {
+  border-bottom: #999 0px dotted;
+  border-left: #999 0px dotted;
+  text-indent: -9999px;
+  width: 30px;
+  display: block;
+  background: url(/src/assets/img/feature_left.gif) center top;
+  float: left;
+  height: 48px;
+  border-top: #999 0px dotted;
+  top: -125px;
+  border-right: #999 0px dotted
+}
+#feature .next {
+  border-bottom: #999 0px dotted;
+  border-left: #999 0px dotted;
+  text-indent: -9999px;
+  width: 30px;
+  display: block;
+  background: url(/src/assets/img/feature_right.gif) center top;
+  float: right; HEIGHT: 48px;
+  border-top: #999 0px dotted;
+  top: -125px;
+  border-right: #999 0px dotted
+}
+#feature .prev:hover {
+  background-position: center bottom;
+  background-color: black;
+}
+#feature .next:hover {
+  background-position: center bottom;
+  background-color: black;
+}
+.featureUL {
+  border-bottom: #000 0px dotted;
+  position: relative;
+  border-left: #000 0px dotted;
+  padding-bottom: 0px;
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 0px;
+  width: 2800px;
+  padding-right: 0px;
+  float: left;
+  border-top: #000 0px dotted;
+  border-right: #000 0px dotted;
+  padding-top: 0px; LEFT: 0px
+}
+.featureBox {
+  background-image: url(/src/assets/img/bg-featurebox.jpg);
+  border-bottom: #999 0px dotted;
+  border-left: #999 0px dotted;
+  width: 280px;
+  background-repeat: no-repeat;
+  float: left;
+  height: 230px;
+  overflow: hidden;
+  border-top: #999 0px dotted;
+  border-right: #999 0px dotted;
+  padding-top: 10px
+ }
+#botton-scroll {
+  z-index: 0;
+  border-bottom: #999 0px dotted;
+  border-left: #999 0px dotted;
+  margin: 0px auto;
+  width: 840px;
+  float: left;
+  height: 200px;
+  border-top: #999 0px dotted;
+  border-right: #999 0px dotted
+}
+#block {
+  z-index: 0;
+  border-bottom: #999 0px dotted;
+  position: relative;
+  border-left: #999 0px dotted;
+  padding-bottom: 20px;
+  margin: 0px auto;
+  padding-left: 0px;
+  width: 840px;
+  padding-right: 0px;
+  height: 180px;
+  font-size: 70%;
+  overflow: hidden;
+  border-top: #999 0px dotted;
+  border-right: #999 0px dotted;
+  padding-top: 0px
+}
+/*#block .box {*/
+  /*BORDER-BOTTOM: #d8d8d8 0px solid; BORDER-LEFT: #d8d8d8 0px solid; PADDING-BOTTOM: 10px; MARGIN: 0px 10px; PADDING-LEFT: 10px; WIDTH: 240px; PADDING-RIGHT: 10px; FLOAT: left; HEIGHT: 150px; BORDER-TOP: #d8d8d8 0px solid; BORDER-RIGHT: #d8d8d8 0px solid; PADDING-TOP: 10px*/
+/*}*/
+/*#block .box .feature-title {*/
+  /*FONT-SIZE: 140%; FONT-WEIGHT: normal*/
+/*}*/
+/*#block .box .feature-thumb {*/
+  /*WIDTH: 240px; MARGIN-BOTTOM: 5px; FLOAT: left; HEIGHT: 150px*/
+/*}*/

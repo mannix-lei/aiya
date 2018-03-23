@@ -1,0 +1,29 @@
+#userList{
+  font-family: "Times New Roman";
+}
+.el-table th > .cell{
+  text-align: center;
+}
+.el-table .caret-wrapper{
+  margin-left: 8px;
+}
+.el-input{
+  width: 205px;
+  margin-left: 10px;
+}
+.block{
+  margin-top: -40px;
+  margin-left: -920px;
+}
+.bottomColo{
+  margin-top: 20px;
+  float: left;
+  width: 1440px;
+  margin-left: 25px;
+}
+.searchLine{
+  margin-top: 10px;
+  width: 1500px;
+  margin-left: 20px;
+}
+
