@@ -1,0 +1,24 @@
+#loginDiv{
+    font-family: "Times New Roman";
+    width: 530px;
+    margin-left: 745px;
+    margin-top: 260px;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  .title{
+    font-family: "Times New Roman";
+    color: black;
+    font-size: 50px;
+    width: 400px;
+    margin-left: 70px;
+  }
+  .line1{
+    height: 65px;
+  }
+  .form{
+    margin-top: 40px;
+    width: 460px;
+  }
+  
+  

@@ -1,0 +1,38 @@
+#userInfoEdit{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  a{
+    color: black;
+  }
+  
+  .editArea{
+  
+    color: black;
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 50%;
+    height: 500px;
+  }
+  .edit_Name{
+  
+    width: 50%;
+    margin-left: 260px;
+    height: 70px;
+    margin-top: 50px;
+  }
+  .edit_password{
+  
+    height: 70px;
+    width: 50%;
+    margin-left: 260px;
+  }
+  .edit_confirmPassword{
+  
+    height: 70px;
+    width: 50%;
+    margin-left: 260px;
+  }
+  

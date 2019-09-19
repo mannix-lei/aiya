@@ -1,3 +1,4 @@
+import { Form } from 'element-ui';
 import { Component, Vue } from 'vue-property-decorator';
 @Component({})
 export default class Register extends Vue {
@@ -40,10 +41,10 @@ export default class Register extends Vue {
         //     }
         // });
     }
-    public resetForm(formName) {
-        this.$refs[formName].resetFields();
+    public resetForm(formName: string) {
+        (this.$refs[formName] as Form).resetFields();
     }
     public toLogin() {
-        this.$router.push('/login');
+        // this.$router.push('/login');
     }
 }

@@ -10,6 +10,7 @@
         "no-consecutive-blank-lines": true,
         "object-literal-sort-keys": false,
         "ordered-imports": true,
-        "quotemark": [true, "single"]
+        "quotemark": [true, "single"],
+        "no-console": false
     }
 }
