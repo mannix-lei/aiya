@@ -1,5 +1,5 @@
 import { Component, Vue } from 'vue-property-decorator';
-import { IUser } from '../model/User';
+import { IUser } from '../../model/User';
 
 @Component({})
 export default class UserList extends Vue {
